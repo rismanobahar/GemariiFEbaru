@@ -1,0 +1,35 @@
+.sidebar {
+    padding-bottom: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 65px;
+    margin-left: 100px;
+    width: 250px;
+    height: 300px;
+  }
+  
+  .sidebarItem {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  .facebook{
+    height: 250px;
+    width: 300px;
+    object-fit: cover;
+  }
+
+  .instagram{
+    height: 250px;
+    width: 300px;
+    object-fit: cover;
+  }
+
+  .twitter{
+    height: 250px;
+    width: 300px;
+    object-fit: cover;
+  }

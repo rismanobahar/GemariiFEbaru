@@ -1,0 +1,107 @@
+.semuaBlog{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 20px;
+    margin-left: 500px;
+    width: 710px;
+    height: 100%;
+}
+.Post1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 1000px;
+    width: 710px;
+    background-color: antiquewhite;
+    margin-top: 20px;
+}
+.Post2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 1000px;
+    width: 710px;
+    background-color: antiquewhite;
+    margin-top: 20px;
+}
+
+.Post3{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 870px;
+    width: 710px;
+    background-color: antiquewhite;
+    margin-top: 20px;
+
+}
+
+.Post4{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 800px;
+    width: 710px;
+    background-color: antiquewhite;
+    margin-top: 20px;
+
+}
+
+.Post5{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 800px;
+    width: 710px;
+    background-color: antiquewhite;
+    margin-top: 20px;
+
+}
+.postT{
+    font-size: 30px;
+    margin: 20px;
+}
+
+.postP{
+    font-size: 18px;
+    margin: 30px;
+}
+
+.postK{
+    margin: 20px;
+}
+
+.postF{
+    margin: 20px;
+}
+.postImg1{
+    margin: 20px;
+    align-items: center;
+}
+
+.postImg2{
+    margin: 20px;
+}
+
+.postImg3{
+    margin: 20px;
+    
+}
+
+.postImg4{
+    margin: 20px;
+}
+
+.postImg5{
+    margin: 20px;
+    width: 600px;
+}
+
+.bcLengkap{
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color:coral;
+}

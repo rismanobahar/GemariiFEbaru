@@ -1,0 +1,79 @@
+.all{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color:white;
+}
+
+.pageNumber{
+    display: flex;
+    flex-direction: row;
+    margin-left: 700px;
+    width: 300px;
+    height: 50px;
+    align-items: center;
+    margin-top: 20px;
+    background-color: bisque;
+}
+
+.link1{
+    text-decoration: none;
+    margin-left: 20px;
+    background-color: coral;
+    width: 20px;
+    text-align: center;
+    color: white;
+}
+
+.link2{
+    text-decoration: none;
+    margin-left: 40px;
+    background-color: coral;
+    width: 20px;
+    text-align: center;
+    color: white;
+
+}
+
+.link3{
+    text-decoration: none;
+    margin-left: 40px;
+    background-color: coral;
+    width: 20px;
+    text-align: center;   
+     color: white;
+
+}
+
+.link4{
+    text-decoration: none;
+    margin-left: 40px;
+    background-color: coral;
+    width: 20px;
+    text-align: center;
+    color: white;
+
+}
+
+.link5{
+    text-decoration: none;
+    margin-left: 40px;
+    background-color: coral;
+    width: 20px;
+    color: white;
+
+    text-align: center;
+}
+
+.nextPage{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+.pageControl{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: auto;
+}

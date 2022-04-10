@@ -1,0 +1,14 @@
+.rekArtikel{
+    width: 1020px;
+    background-color:antiquewhite;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 400px;
+    height: 300px;
+  }
+
+  .titleRA{
+      font-size:20px;
+      font-weight: bold;
+      margin: 10px;
+  }

@@ -1,0 +1,118 @@
+
+.post {
+    width: 385px;
+    margin: 0px 25px 40px 25px;
+    display: flex;
+    flex-direction: column;
+    top: 14.5%;
+    padding: 5px;
+    position: absolute; 
+    
+   }
+  .post1{
+    top: 14.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    padding: 5px;
+    margin-top: 25px;
+    height: 900px;
+    width: 500px;
+  }
+  .postImg {
+    width: 1000px;
+    height: 900px;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  .post2{
+    display: flex;
+    height: 900px;
+    width: 500px;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    padding: 5px;
+    left: 140%;
+    top: 14.5%;
+    margin-left: 110px;
+    margin-top: 25px;
+  }
+  /* .postImg2 {
+    width: 600px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+  } */
+  .post3{
+    display:flex;
+    flex-direction: column;
+    align-items:flex-end;
+    position: absolute;
+    padding: 5px;
+    margin-left: 220px;
+    left: 160%;
+    top: 14.5%;
+  }
+  .postImg3{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+  }
+  .postInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .postCats{
+    margin-top: 30px;
+    
+  }
+  .postCat {
+    font-family: "Varela Round", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    color: #be9656;
+    line-height: 19px;
+   
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .postTitle {
+    font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    margin-top: 45px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+  }
+  
+  
+  .postDate {
+    font-family: "Lora", serif;
+    font-style: italic;
+    font-size: 13px;
+    color: #999999;
+    margin-top: 15px;
+  }
+  
+  .postDesc {
+    font-family: "Varela Round", sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #444444;
+    margin-top: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+  }
+  

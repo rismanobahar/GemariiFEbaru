@@ -1,0 +1,67 @@
+const blogs = [
+    {
+      id: 1,
+      title: 'Ikut Lagi New York Fashion Week, Erigo Selektif Pilih Influencer yang Berangkat',
+      author: 'Gemarii',
+      date: 'Upload Date',
+      imageSrc: 'https://asset.kompas.com/crops/9DzFelJLqyVp2dquHJn3vlY-bCQ=/0x0:0x0/490x326/data/photo/2022/03/27/62400ee3be82c.jpg',
+      imageAlt: '',
+      detail: 'Muhammad Sadad selaku Founder sekaligus CEO Erigo menyebut kasus Rachel Venyya merupakan musibah yang diharapkan tak terulang kembali tahun depan.',
+    },
+    {
+      id: 2,
+      title: 'Jelang Ramadhan, 50 Desainer Indonesia Unjuk Gigi di IHW 2022',
+      author: 'Gemarii',
+      date: 'Upload Date',
+      imageSrc: 'https://asset.kompas.com/crops/zLfeF1X5jGZX7oKdGgMLtxekYp0=/0x0:0x0/230x153/data/photo/2022/03/27/623fd6d7d6034.jpeg',
+      imageAlt: '',
+      detail: 'Selain 50 desainer yang mengikuti fashion show, terdapat 100 brand yang meramaikan pameran Indonesia Hijab Walk 2022 di Bandung, 25-27 Maret 2022.',
+    },
+    {
+      id: 3,
+      title: 'Perjalanan Rizal Rama hingga Paris Fashion Week, Kini Incar New York Fashion Week',
+      author: 'Gemarii',
+      date: 'Upload Date',
+      imageSrc: 'https://asset.kompas.com/crops/NvJSR8RtjQbb6hVGJGM0HzPAlP8=/0x28:1080x748/230x153/data/photo/2022/03/08/6226fe78a3c21.jpg',
+      imageAlt: '',
+      detail: 'Rizal Rama harus menurunkan berat badannya 10 kilogram demi melenggang di Paris Fashion Week 2022. Kini, ia fokus mengincar New York Fashion Week 2023',
+    },
+    {
+      id: 4,
+      title: 'Kisah Nafa Salvana, Ditemukan di Warung Pecel Lele di Bandung, Kini Jadi Model di Milan',
+      author: 'Gemarii',
+      date: 'Upload Date',
+      imageSrc: 'https://asset.kompas.com/crops/lvNtDYV5Au6OhiaPvxdr9W7MPXE=/0x165:1003x834/230x153/data/photo/2022/03/15/623089f7d3992.jpg',
+      imageAlt: '',
+      detail: 'Nama Nafa Salvana, gadis 23 tahun asal Karawang, Jawa Barat, menjadi perbincangan di media sosial. Hal itu karena Nafa menjadi model di Milan Fashion Week 2022 di Milan, Italia.'
+    },
+    {
+      id: 5,
+      title: 'Ayu Dyah Andari Gelar Peragaan Busana Tunggal Perdana dalam 11 Tahun Berkarya',
+      author: 'Gemarii',
+      date: 'Upload Date',
+      imageSrc: 'https://cdn1-production-images-kly.akamaized.net/ZazXn9E0rnjZVrSALM4bQ3vkjlw=/200x112/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/3964679/original/024357400_1647417091-WhatsApp_Image_2022-03-16_at_7.27.23_AM__1_.jpeg',
+      imageAlt: '',
+      detail: ' Desainer Ayu Dyah Andari mempersembahkan peragaan tunggal perdana dalam 11 tahun berkarya di industri mode. Peragaan busana bertajuk "Les Allées" tersebut terselenggara di The Langham Jakarta, Senin, 14 Maret 2022.',
+    },
+    {
+      id: 6,
+      title: 'Kolaborasi Unik Brand Fesyen Lokal dan Tepung Legendaris, Ada Kemeja hingga Tote Bag',
+      author: 'Gemarii',
+      date: 'Upload Date',
+      imageSrc: 'https://cdn0-production-images-kly.akamaized.net/lJtXeaVoMNtE0zKtMlAp5nR6ls8=/200x112/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/3959764/original/099794500_1646987996-aaa.jpg',
+      imageAlt: '',
+      detail: 'Kolaborasi brand lokal saat ini tak jarang melahirkan deretan produk yang unik nan menarik. Salah satunya datang dari jenama fesyen Monstore yang bersinergi dengan label tepung legendaris Tanah Air, Bogasari.',
+    },
+    {
+      id: 7,
+      title: 'Tanggapan Simpel Sabrina Chairunnisa Soal Polemik Paris Fashion Week',
+      author: 'Gemarii',
+      date: 'Upload Date',
+      imageSrc: 'https://cdn0-production-images-kly.akamaized.net/dIoAZgpgYwmcLhR73IKVlAKAXKU=/1x118:1080x726/200x112/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/3619255/original/082095800_1635746725-240643304_270480667941227_2386469699144827192_n.jpg',
+      imageAlt: '',
+      detail: 'Pergelaran Paris Fashion Week sudah selesai. Namun di Indonesia, salah satu event mode terbesar di dunia itu masih menjadi perbincangan. Gara-garanya adalah banyak brand dan public figure Indonesia yang menyatakan ikut terlibat di Paris Fashion Week, padahal sebenarnya berbeda acara. Hal ini kemudian banyak menuai pro kontra dari warganet.',
+    },
+  ]
+  
+  export default blogs;
