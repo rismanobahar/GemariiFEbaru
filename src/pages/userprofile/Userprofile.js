@@ -13,7 +13,7 @@ export default function Userprofile() {
     <div className='flex justify-center items-center bg-[#ddb7ab]'>
       <div className='grid grid-cols-2 gap-x-4 w-3/5 h-full my-10 mx-1 p-5 rounded-md bg-gray-50 '>
 
-        <div className='flex flex-col justify-center items-center'>
+        <div className='flex flex-col justify-center items-center border-r-2'>
           <div className='flex w-'>
             <img 
             src='https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'

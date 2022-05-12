@@ -11,7 +11,12 @@ export default function AkunDropdown() {
       <Menu as="div" className="relative inline-block text-left">
         <div>
           <Menu.Button>
-              <AccountCircleIcon style={{fontSize:'30'}} type='button' className='opacity-[0.8] hover:opacity-[1]'/>
+              {/* <AccountCircleIcon style={{fontSize:'30'}} type='button' className='opacity-[0.8] hover:opacity-[1]'/> */}
+              <img 
+              src='https://images.unsplash.com/photo-1583001810204-ac030157288f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80'
+              alt=''
+              className='rounded-full h-8 w-8 object-cover'
+              />
           </Menu.Button>
         </div>
         <Transition

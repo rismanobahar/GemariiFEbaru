@@ -15,6 +15,9 @@ import Registeruser from "./pages/registeruser/Registeruser";
 import Registerdesigner from "./pages/registerdesigner/Registerdesigner";
 import Userprofile from "./pages/userprofile/Userprofile";
 import Designerup from "./pages/designerup/Designerup";
+import Aboutus from "./components/aboutus/aboutUs";
+import Slider from "./components/header/Slide";
+import Bloghome from "./components/bloghome/Bloghome";
 // import ExploreDetail from "./components/exploredetail/ExploreDetail";
 // import { useEffect, useState } from "react";
 // import WebAPI from "./config/WebAPI";
@@ -43,6 +46,9 @@ function App() {
        <Route exact path="/">
           <Homepage/>
        </Route>
+       <Route path='slide'>
+          <Slider/>
+       </Route>
        <Route path="/posts">
           <Homepage/>
        </Route>
@@ -55,6 +61,9 @@ function App() {
        <Route path="/blogpage">
           <Blogpage/>
        </Route> 
+       <Route path='bloghome'>
+          <Bloghome/>
+       </Route>
        <Route path="/Registeruser">
           <Registeruser />
         </Route> 

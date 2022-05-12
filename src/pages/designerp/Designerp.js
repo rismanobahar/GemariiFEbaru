@@ -76,6 +76,9 @@ export default function Designerp() {
   })
 return (
   <>
+
+  {/* Leftcomponents */}
+
     <div className='grid gap-x-6 grid-cols-2 mx-20 p-6 my-6 w-4/5'>
       <div className='relative flex justify-center items-center'>
         <div className='grid-rows-2 w-auto h-full'>
@@ -127,6 +130,9 @@ return (
         </div>
       </div>
       </div>
+
+      {/* RightComponent */}
+
       <div className='relative w-full h-full rounded-md bg-gray-100'>
         <div className='grid grid-rows-2 w-full h-full bg-transparent'>
           

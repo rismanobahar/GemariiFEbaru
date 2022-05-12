@@ -12,6 +12,11 @@ import exploredata from '../../components/explorepagedata/exploredata'
 
   export default function Explore() {
     const [popuptogle, setpopuptogle] = useState(false);
+    const [callImg, setCallimg] = useState('');
+    const showImg = (imageSrc) => {
+      setCallimg(imageSrc);
+      setpopuptogle(true);
+    }
     return (
      <>
     <div className='bg-[#ddb7ab]'>
@@ -33,7 +38,7 @@ import exploredata from '../../components/explorepagedata/exploredata'
                     src={item.imageSrc}
                     alt={item.imageAlt}
                     className="rounded-[10px] hover:opacity-90 w-full h-full object-cover " 
-                    onClick={() => setpopuptogle(true)}/>
+                    onClick={() => showImg(item.imageSrc)}/>
                
                  <Link to='/DesignerP'> 
                     <div className="absolute bottom-0 bg-black bg-opacity-[0.5] w-full h-auto">
@@ -140,11 +145,11 @@ import exploredata from '../../components/explorepagedata/exploredata'
                
                 <div className="flex w-full h-full bg-gray-400">
                   
-                  {/* <img 
-                  src="https://images.unsplash.com/photo-1583001810204-ac030157288f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" 
+                  <img 
+                  src={callImg} 
                   alt=""
                   className="object-cover w-full h-full"
-                  /> */}
+                  />
                   
                 </div>
                 {/*body*/}

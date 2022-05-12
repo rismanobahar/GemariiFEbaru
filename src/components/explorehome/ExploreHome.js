@@ -9,10 +9,28 @@ import { Link } from "react-router-dom" ;
 
 export default function ExploreHome() {
   const [popuptogle, setpopuptogle] = useState(false);
-
+  const [data, setData] = useState([]);
+  const [page, setPage] = useState(1);
+  const [callImg, setCallimg] = useState('');
+  const showImg = (imageSrc) => {
+    setCallimg(imageSrc);
+    setpopuptogle(true);
+  }
+  // const getData = () => {
+  //   fetch('13.251.197.120:1338/api/blogs?page'=+page)
+  //     .then(response => {
+  //         setData([...data,response])
+  //     })
+  //     .catch(error => {
+  //         // handle the error
+  //     });
+  // }
+  // useEffect(() => {
+  //   getData();
+  // },[page]);
  return (
       <>
-       <div className="flex-column bg-[#ddb7ab]">
+       <div className="flex-column bg-[#ddb7ab]" id='explore'>
         <div className='flex items-center justify-center w-full h-40 m-6 py-10'>
           <img src='Gemarii3.png'
            alt=''
@@ -24,8 +42,7 @@ export default function ExploreHome() {
           
   
           <div className="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-4 xl:grid xl:gap-x-8">
-            {products.map((item) =>{
-            return (  
+            {products.map((item) =>(  
               <div key={item.id} className="group">
                 <div className="relative rounded-[10px] w-full h-full aspect-w-1 aspect-h-1 bg-gray-100  overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
                     <img
@@ -33,7 +50,7 @@ export default function ExploreHome() {
                     alt={item.imageAlt}
                     className="rounded-[10px] hover:opacity-90 w-full h-full object-center object-cover"  
                     type='button'
-                    onClick={() => setpopuptogle(true)}
+                    onClick={() => showImg(item.imageSrc)}
                      />
                     <Link to='/DesignerP'>
                     <div className="absolute bottom-0 bg-black bg-opacity-[0.5] w-full h-auto">
@@ -45,8 +62,7 @@ export default function ExploreHome() {
                 </div>  
                 
              </div>
-            )
-            })}
+            ))}
       </div>
             <Link type='button' to='/Explore' className='hover:no-underline'>
                 <div  className="flex w-full mr-0 ml-auto justify-center items-center text-center p-3 mt-12 mb-10 font-medium  text-white capitalize transition-colors duration-200 transform bg-black bg-opacity-20 rounded-[10px] hover:bg-gray-600 focus:outline-none focus:ring focus:ring-white focus:ring-opacity-10">
@@ -70,11 +86,11 @@ export default function ExploreHome() {
                
                 <div className="flex w-full h-full bg-gray-400">
                   
-                  {/* <img 
-                  src="https://images.unsplash.com/photo-1583001810204-ac030157288f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" 
+                  <img 
+                  src={callImg} 
                   alt=""
                   className="object-cover w-full h-full"
-                  /> */}
+                  />
                   
                 </div>
                 {/*body*/}

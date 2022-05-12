@@ -11,7 +11,7 @@ export default function Homepage() {
 
   return (
     <>
-    <div className="bg-[#efd9d1] object-fill flex flex-col">
+    <div className="bg-[#efd9d1] object-fill flex flex-col" id="home">
      
       <div className="relative mt-10">
         <Slide/>
@@ -40,7 +40,7 @@ export default function Homepage() {
       <div>
         <Posts/>
       </div>
-      <Footer/>
+        <Footer/>
       </div>
     </>
   );

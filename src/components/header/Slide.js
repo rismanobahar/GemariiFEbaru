@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Fade } from "react-slideshow-image";
 
-const CallbackExample = () => {
+const Slider = () => {
   const [previousIndex, setPreviousIndex] = useState(null);
   const [nextIndex, setNextIndex] = useState(null);
 
@@ -48,4 +48,4 @@ const CallbackExample = () => {
   );
 };
 
-export default CallbackExample;
+export default Slider;
