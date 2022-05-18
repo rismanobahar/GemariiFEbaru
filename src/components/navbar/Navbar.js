@@ -401,7 +401,7 @@ import AkunDropdown from './AkunDropdown'
 import BhsDropdown from './BhsDropdown'
 import LgnDropdown from './LgnDropdown'
 import NavbarElements from './NavbarMenu'
-export default function Navbar() {
+export default function NavbarTop() {
   return (
     <div className='z-[999] sticky top-0 flex flex-row items-center  border-b-2 border-black w-full bg-[#efd9d1] h-16'>
       <NavbarElements/>

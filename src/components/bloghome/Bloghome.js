@@ -9,9 +9,9 @@ export default function Bloghome() {
 //     )
 //   })
   return (
-    <div>
+    <>
     
-    <div className="w-full h-full bg-[#ddb7ab] mt-40 id='blog">
+    <div className="w-full h-full bg-[#ddb7ab] mt-40 " id='blog'>
       <div className="flex flex-col w-full h-full p-6">
           <div className="flex flex-row justify-between mb-4">
             <div className="flex-row flex ml-3">
@@ -83,7 +83,7 @@ export default function Bloghome() {
       </div>
     </div>
     
-    </div>
+    </>
     // <div className="posts">
     //   <div className="postsHeader">
     //   <div className="postsTittle">
