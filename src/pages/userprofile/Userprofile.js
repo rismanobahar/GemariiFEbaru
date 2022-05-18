@@ -27,6 +27,7 @@ export default function Userprofile() {
           </div>
         </div>
         <div className='flex flex-col bg-gray-100'>
+            <span className='p-3 font-semibold'>Personal Data </span>
             <div className='mx-4 my-4 p-2 leading-10'>
               <div className='font-normal'>Name : Rismano</div>
               <div className='font-normal'>Email : rismano@gmail.com</div>

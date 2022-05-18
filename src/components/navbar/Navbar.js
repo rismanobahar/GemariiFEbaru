@@ -403,7 +403,7 @@ import LgnDropdown from './LgnDropdown'
 import NavbarElements from './NavbarMenu'
 export default function Navbar() {
   return (
-    <div className='z-[999] top-0 flex flex-row items-center  border-b-2 border-black w-full bg-[#efd9d1] h-16'>
+    <div className='z-[999] sticky top-0 flex flex-row items-center  border-b-2 border-black w-full bg-[#efd9d1] h-16'>
       <NavbarElements/>
       <LgnDropdown/>
       <BhsDropdown/>
