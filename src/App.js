@@ -37,53 +37,36 @@ function App() {
 
   return (
     
-    <Router>
-      <Navbar/>
-      <Switch>
-        <Route path="/Explore">
+    
+       <>
           <Explore/>
-        </Route>
-       <Route exact path="/">
+      
           <Homepage/>
-       </Route>
-       <Route path='slide'>
+       
           <Slider/>
-       </Route>
-       <Route path="/posts">
+      
           <Homepage/>
-       </Route>
-       <Route path='/DesignerP'>
+       
         <DesignerP/>
-       </Route>
-       <Route path="/Singleblog">
+      
         <Singleblog/>
-      </Route>
-       <Route path="/blogpage">
+    
           <Blogpage/>
-       </Route> 
-       <Route path='bloghome'>
+      
           <Bloghome/>
-       </Route>
-       <Route path="/Registeruser">
+      
           <Registeruser />
-        </Route> 
-       <Route path="/Registerdesigner">
+       
           <Registerdesigner />
-       </Route>
-       <Route path="/LoginUser">
+     
           <LoginUser/>
-       </Route>
-       <Route path="/Logindesigner">
+     
          <Logindesigner />
-       </Route>
-       <Route path='/Userprofile'>
+       
          <Userprofile/>
-       </Route>
-       <Route path="/Designerup">
+      
           <Designerup/>
-       </Route>
-      </Switch>
-    </Router>
+    </>
 
   );
 }
