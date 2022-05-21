@@ -1,4 +1,6 @@
 import React from 'react'
+import { Button } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 import Vidtext from './Vidtext'
 
 export default function Vidtextall() {
