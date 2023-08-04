@@ -27,7 +27,7 @@ function App() {
 
    
 <Router>
-      <NavbarTop/>
+      {/* <NavbarTop/> */}
       <Switch> 
         <Route path="/Explore">
           <Explore/>
@@ -82,8 +82,6 @@ function App() {
           <Designerup/>
        </Route>   
       </Switch>
-   
-
  </Router>
     
       );

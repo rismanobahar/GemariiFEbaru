@@ -13,7 +13,7 @@ export default function NavbarElements() {
         </div>
         <div className="relative flex p-3 items-center">
             <Link  to="home" spy={true} smooth={true} offset={500} duration={500} type='button' className="text-[20px] font-extrabold text-black hover:text-gray-600  transition duration-300 border-b-4 border-transparent hover:no-underline hover:border-gray-600 sm:mx-6 ">Home</Link>
-            <Link  to="explore" spy={true} smooth={true} offset={50} duration={500} type='button' className="text-[20px] font-extrabold text-black hover:text-gray-600  transition duration-300 border-b-4 border-transparent hover:no-underline hover:border-gray-600 sm:mx-6">Explore</Link>
+            <Link  to="explore" spy={true} smooth={true} offset={500} duration={500} type='button' className="text-[20px] font-extrabold text-black hover:text-gray-600  transition duration-300 border-b-4 border-transparent hover:no-underline hover:border-gray-600 sm:mx-6">Explore</Link>
             <Link  to="blog" spy={true} smooth={true} offset={50} duration={500} type='button' className="text-[20px] font-extrabold text-black hover:text-gray-600  transition duration-300 border-b-4 border-transparent hover:no-underline hover:border-gray-600 sm:mx-6">Blog</Link>
             <Link  to="about" spy={true} smooth={true} offset={50} duration={500} type='button' className="text-[20px] font-extrabold text-black hover:text-gray-600  transition duration-300 border-b-4 border-transparent hover:no-underline hover:border-gray-600 sm:mx-6">About Us</Link>
         </div>

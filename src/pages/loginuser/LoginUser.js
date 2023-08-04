@@ -1,10 +1,12 @@
 import { Link } from "@mui/material";
 import React, { useState } from "react";
+import Navbartwo from "../../components/navbarnotlandingpage/Navbartwo";
 
 function LoginUser() {
     // const [sidebar, setsidebar] = useState();
     return (
         <>
+        <Navbartwo/>
         <div className="h-full bg-[#ddb7ab] w-full py-16 px-4">
             <div className="flex flex-col items-center justify-center">
                <div className="flex items-center justify-center w-5/6 h-36"> 

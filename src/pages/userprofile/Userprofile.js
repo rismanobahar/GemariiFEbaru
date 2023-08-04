@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import Footer from '../../components/footer/Footer'
 import UploadIcon from '@mui/icons-material/Upload';
+import Navbartwo from '../../components/navbarnotlandingpage/Navbartwo';
 
 
 export default function Userprofile() {
@@ -9,7 +10,7 @@ export default function Userprofile() {
   const [profilepop, setprofilepop] = useState(false);
   return (
     <>
-    
+    <Navbartwo/>
     <div className='flex justify-center items-center bg-[#ddb7ab]'>
       <div className='grid grid-cols-2 gap-x-4 w-3/5 h-full my-10 mx-1 p-5 rounded-md bg-gray-50 '>
 

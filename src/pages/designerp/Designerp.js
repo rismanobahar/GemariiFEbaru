@@ -15,6 +15,7 @@ import Footer from '../../components/footer/Footer';
 import Pagination from "@material-tailwind/react/Pagination";
 import PaginationItem from "@material-tailwind/react/PaginationItem";
 import Icon from "@material-tailwind/react/Icon";
+import Navbartwo from '../../components/navbarnotlandingpage/Navbartwo';
 // import DSPSlideshow from './DSPSlide';
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
@@ -76,7 +77,7 @@ export default function Designerp() {
   })
 return (
   <>
-
+  <Navbartwo/>
   {/* Leftcomponents */}
 
     <div className='grid gap-x-6 grid-cols-2 mx-20 p-6 my-6 w-4/5'>

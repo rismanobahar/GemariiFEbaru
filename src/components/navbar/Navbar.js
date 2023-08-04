@@ -403,11 +403,19 @@ import LgnDropdown from './LgnDropdown'
 import NavbarElements from './NavbarMenu'
 export default function NavbarTop() {
   return (
-    <div className='z-[999] sticky top-0 flex flex-row items-center  border-b-2 border-black w-full bg-[#efd9d1] h-16'>
-      <NavbarElements/>
-      <LgnDropdown/>
-      <BhsDropdown/>
-      <AkunDropdown/>
+    <div className='z-[10] sticky top-0 flex flex-row items-center border-b-2 border-black w-auto bg-[#efd9d1] h-auto'>
+      <div className='ml-12'>
+         <NavbarElements/>
+      </div>
+      <div className='ml-20'>
+         <LgnDropdown/>
+      </div>
+      <div className='ml-4'>
+         <BhsDropdown/>
+      </div>
+      <div className='float-right mr-0 ml-2 items-right justify-end'>
+         <AkunDropdown/>
+      </div>
     </div>
   )
 }

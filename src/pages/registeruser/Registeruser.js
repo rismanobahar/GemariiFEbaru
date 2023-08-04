@@ -1,9 +1,12 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+import Navbartwo from '../../components/navbarnotlandingpage/Navbartwo'
 
 export default function Registeruser() {
   return (
     <>
-<div className="bg-[#ddb7ab] h-full flex flex-col">
+    <Navbartwo/>
+    <div className="bg-[#ddb7ab] h-full flex flex-col">
                 <div className="flex items-center justify-center w-full h-36 mt-4"> 
                         <img
                         src="Gemarii2.png"  
@@ -57,9 +60,9 @@ export default function Registeruser() {
                         </div>
                         <div className="text-gray-700 text-center mt-6">
                             Already have an account? 
-                            <a className="no-underline pl-1 border-b border-blue text-blue" href="../login/">
+                            <Link className="no-underline pl-1 border-b border-blue text-blue" to="/Loginuser">
                                 Log in
-                            </a>
+                            </Link>
                         </div>
                     </div>
             </div>

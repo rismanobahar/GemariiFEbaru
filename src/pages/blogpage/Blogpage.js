@@ -9,9 +9,11 @@ import Footer from '../../components/footer/Footer';
 import { Link } from 'react-router-dom';
 import blogs from '../../components/allblogdata/Allblogdata';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
+import Navbartwo from '../../components/navbarnotlandingpage/Navbartwo';
 export default function Blogpage() {
     return (
         <>
+        <Navbartwo/>
         <div className='bg-[#ddb7ab] w-full h-full flex flex-row justify-center'>
             <div className='grid gap-y-4 h-full mt-2 mb-4 grid-rows-7 bg-[#ddb7ab]'>
                 {blogs.map((item) => {

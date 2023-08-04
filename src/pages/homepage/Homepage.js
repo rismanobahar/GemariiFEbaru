@@ -7,18 +7,21 @@ import Explore from "../../components/explorehome/ExploreHome";
 import Footer from "../../components/footer/Footer";
 import Aboutus from "../../components/aboutus/aboutUs";
 import Vidtextall from "../../components/vidtext/Vidtextall";
+import NavbarTop from "../../components/navbar/Navbar";
 
 export default function Homepage() {
 
   return (
     <>
-    <div className="bg-[#efd9d1] object-fill flex flex-col" id="home">
-     
+    <div className="bg-[#efd9d1] object-fill flex flex-col w-100" id="home">
+      <NavbarTop/>
       <div className="relative mt-10">
         <Slide/>
       </div>
-        <Vidtextall/>     
-      <div className=" mb-40">
+      <div className="w-full">
+        <Vidtextall/>   
+      </div>
+      <div className="mb-40">
         <Aboutus/>
       </div>
       <div>

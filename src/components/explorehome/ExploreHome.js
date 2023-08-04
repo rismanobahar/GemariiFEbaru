@@ -66,7 +66,7 @@ export default function ExploreHome() {
       </div>
             <Link type='button' to='/Explore' className='hover:no-underline'>
                 <div  className="flex w-full mr-0 ml-auto justify-center items-center text-center p-3 mt-12 mb-10 font-medium  text-white capitalize transition-colors duration-200 transform bg-black bg-opacity-20 rounded-[10px] hover:bg-gray-600 focus:outline-none focus:ring focus:ring-white focus:ring-opacity-10">
-                    LIHAT SEMUA
+                    MORE POSTS
                 </div>
             </Link>
        
@@ -75,12 +75,9 @@ export default function ExploreHome() {
 </div> 
  {popuptogle ? (
         <>
-          <div
-            className="justify-center items-center z-50 flex overflow-x-hidden overflow-y-auto fixed inset-0  outline-none focus:outline-none" onClick={() => setpopuptogle(false)}
-          >
+          <div className="justify-center items-center z-[100] flex overflow-x-hidden overflow-y-auto fixed inset-0  outline-none focus:outline-none" onClick={() => setpopuptogle(false)}>
             <div className="relative w-auto my-6 mx-auto max-w-3xl">
               {/*content*/} 
-             
               <div className="grid lg:grid-cols-2  border-0 rounded-lg relative w-full bg-white outline-none focus:outline-none">
                 {/*header*/}
                

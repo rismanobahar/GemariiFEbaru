@@ -5,9 +5,11 @@ import Artikelain from "../../components/artikelain/Artikelain"
 import { Link } from "react-router-dom"
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos'
 import singleblog from "../../components/singleblogdata/Singleblogdata"
+import Navbartwo from "../../components/navbarnotlandingpage/Navbartwo"
 export default function Singleblog() {
   return (
     <>
+    <Navbartwo/>
     <div className='bg-[#ddb7ab] w-full h-full flex flex-row justify-center'>
             <div className='grid gap-y-4 h-full mt-2 mb-4 grid-rows-7 bg-[#ddb7ab]'>
                 {singleblog.map((item) => {

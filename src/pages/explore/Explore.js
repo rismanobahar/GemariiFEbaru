@@ -9,6 +9,7 @@ import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
 import Kategori from '../../components/Kategoriexplore/Kategori'
 import Gender from '../../components/Kategoriexplore/Gender'
 import exploredata from '../../components/explorepagedata/exploredata'
+import Navbartwo from '../../components/navbarnotlandingpage/Navbartwo';
 
   export default function Explore() {
     const [popuptogle, setpopuptogle] = useState(false);
@@ -19,9 +20,10 @@ import exploredata from '../../components/explorepagedata/exploredata'
     }
     return (
      <>
+    <Navbartwo/>
     <div className='bg-[#ddb7ab]'>
      <div className="flex flex-col w-full h-full">
-        <div className="flex flex-row justify-center bg-[#efd9d1] p-1 border-b-2 border-black">
+        <div className="flex flex-row justify-center bg-[#efd9d1] p-1 mt-1 border-b-2 border-black">
             <div><Kategori/></div>
             <div><Gender/></div>
             <div type='button' className='bg-black opacity-75 hover:opacity-70 text-gray-100 font-bold px-5 py-1 rounded-md ml-4'>Search</div>    
